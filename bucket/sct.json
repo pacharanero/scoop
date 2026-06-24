@@ -1,12 +1,12 @@
 {
-    "version": "0.11.0",
+    "version": "0.12.0",
     "description": "Local-first SNOMED CT toolchain: RF2 to NDJSON, SQLite, Parquet, embeddings, MCP server",
     "homepage": "https://github.com/pacharanero/sct",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pacharanero/sct/releases/download/v0.11.0/sct-windows-x86_64.zip",
-            "hash": "b441e2f859b895bec4da7d1bbf63ab2620d18b80de108aff84c55fcafc1e4037"
+            "url": "https://github.com/pacharanero/sct/releases/download/v0.12.0/sct-windows-x86_64.zip",
+            "hash": "ee44e779bbde1a7d89b2531c3b37c519af7e4d36801cbb3e15e6455d6593f68b"
         }
     },
     "bin": "sct.exe",
