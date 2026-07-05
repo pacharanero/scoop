@@ -1,4 +1,4 @@
-# scoop-sct
+# scoop
 
 [Scoop](https://scoop.sh) bucket for [`sct`](https://github.com/pacharanero/sct)
 — the local-first SNOMED CT toolchain.
@@ -22,17 +22,6 @@ scoop update sct
 ```powershell
 scoop uninstall sct
 scoop bucket rm sct
-```
-
-## Supported platforms
-
-- Windows x86_64
-
-macOS and Linux users: see [`homebrew-sct`](https://github.com/pacharanero/homebrew-sct)
-for the Homebrew tap, or use the shell installer:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/pacharanero/sct/main/install.sh | sh
 ```
 
 ## Manifest updates
