@@ -1,0 +1,27 @@
+{
+    "version": "0.3.6",
+    "description": "A Git-based Electronic Health Record system - patient-owned, local-first, plain files and git",
+    "homepage": "https://gitehr.org",
+    "license": "AGPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gitehr/gitehr/releases/download/v0.3.6/gitehr-x86_64-pc-windows-msvc.zip",
+            "hash": "eed4c4ea93b4a679b7db1df12f20695a4a6f1732957a5f2af96e06dc085cb866"
+        }
+    },
+    "bin": "gitehr.exe",
+    "checkver": {
+        "github": "https://github.com/gitehr/gitehr"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gitehr/gitehr/releases/download/v$version/gitehr-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/gitehr/gitehr/releases/download/v$version/sha256.sum",
+            "regex": "(?<sha256>[0-9a-f]{64})\\s+\\*?gitehr-x86_64-pc-windows-msvc\\.zip"
+        }
+    }
+}
